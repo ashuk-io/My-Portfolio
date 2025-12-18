@@ -10,3 +10,7 @@ Projects/Gamified Education/EduQuest/
 
 # Ignore build directories
 /build/
+
+# Ignore Python cache artifacts
+__pycache__/
+*.py[cod]
