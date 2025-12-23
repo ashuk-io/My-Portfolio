@@ -1,0 +1,9 @@
+Projects/Gamified Education/EduQuest/
+# Ignore executables
+*.exe
+
+# Ignore object files
+*.o
+
+# Ignore build directories
+/build/
