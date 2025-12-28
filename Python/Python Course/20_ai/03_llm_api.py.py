@@ -7,5 +7,6 @@ client = genai.Client(api_key=key)
 response = client.models.generate_content(
     model="gemini-2.5-flash", contents=input("Enter Prompt : ")
 )#gemini-2.5-flash-lite
+
 print(response.text)
 
