@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serving files in flask</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7fb;
+            color: #1f2937;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        p {
+            background: #ffffff;
+            max-width: 560px;
+            margin: 12px auto;
+            padding: 14px 16px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        a {
+            color: #0b63c9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>  
+    <h1>Serving Static Files via Template Renderer</h1>
+    <p>To download the templates click : <a href='/static/1.zip'><b><u>Templates</u></b></a></p>
+    <p>To download the Video click : <a href='/static/dog.mp4'><b><u>Video</u></b></a></p>
+    <p>To download Temp file : <a href='\static\temp.7z'><b><u>File</u></b></a></p>
+</body>
+</html>
